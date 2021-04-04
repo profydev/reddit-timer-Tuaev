@@ -12,7 +12,7 @@ function Header() {
         <nav>
           <ul>
             <li>
-              <RouterLink to="/search/javascript">Search</RouterLink>
+              <RouterLink to="javascript">Search</RouterLink>
             </li>
             <li>
               <RouterLink to="#how-it-works">How it works</RouterLink>

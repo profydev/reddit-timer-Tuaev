@@ -4,7 +4,7 @@ import logo from './icons/logo.svg';
 
 function Header() {
   return (
-    <div className="navbar">
+    <header className="navbar">
       <div className="container flex">
         <RouterLink to="/">
           <img src={logo} alt="logo" />
@@ -23,7 +23,7 @@ function Header() {
           </ul>
         </nav>
       </div>
-    </div>
+    </header>
   );
 }
 export default Header;

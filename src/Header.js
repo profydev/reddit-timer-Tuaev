@@ -7,7 +7,7 @@ function Header() {
     <header className="navbar">
       <div className="container flex">
         <RouterLink to="/">
-          <img src={logo} alt="logo" />
+          <img className="logo" src={logo} alt="logo" />
         </RouterLink>
         <nav>
           <ul>

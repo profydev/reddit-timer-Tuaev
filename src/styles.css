@@ -1,6 +1,64 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bitter&display=swap');
 
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+  color: #93918f;
+  font-size: 16px;
+  line-height: 1.69;
+}
+
 body {
   font-family: 'Bitter', 'Montserrat', sans-serif;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  overflow: auto;
+  padding: 0 80px;
+}
+
+/** Navbar */
+.navbar {
+  background-color: var(--primary);
+  color: var(--white);
+  height: 100px;
+}
+
+.navbar .flex {
+  justify-content: space-between;
+}
+
+.navbar ul {
+  display: flex;
+}
+
+.navbar ul a {
+  color: #333;
+  margin-left: 26px;
+  /* padding: 10px; */
+  /* margin: 0 5px; */
+}
+
+.navbar .logo {
+  display: block;
 }

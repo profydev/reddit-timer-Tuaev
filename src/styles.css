@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bitter&display=swap');
 
-<<<<<<< HEAD
 * {
   padding: 0;
   margin: 0;
@@ -63,8 +62,3 @@ a {
 .navbar .logo {
   display: block;
 }
-=======
-body {
-  font-family: 'Bitter', 'Montserrat', sans-serif;
-}
->>>>>>> main
